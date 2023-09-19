@@ -4,12 +4,14 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import contact from "./contact";
 import about from "./about";
 import blogs from "./blogs";
-
+import './header/style.css';
+import test from "./images/README.jpeg"
 function App() {
   return (
     <div>
-      <Router>
-          <Header/>
+      <Router >
+      {/* <img src={test} alt="Background" className="background-image" /> */}
+          <Header  style={{color:"black"}}/>
           <Routes>
             <Route exact path="/" Component={HomePage}/>
           </Routes>
