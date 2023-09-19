@@ -5,7 +5,6 @@ import contact from "./contact";
 import about from "./about";
 import blogs from "./blogs";
 import './header/style.css';
-import test from "./images/README.jpeg"
 function App() {
   return (
     <div>
